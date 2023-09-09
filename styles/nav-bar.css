@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.org-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 71px;
+    width: 103px;
+    background-image: url(../assets/dev-eth\ logo.png);
+    background-size: cover;
+    
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 20px;
+    list-style: none;
+    font-weight:bold;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.ct-button{
+    background-color: #B8D8D8;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 12px;
+
+}
+.nav-hr{
+    width: 100%;
+}
