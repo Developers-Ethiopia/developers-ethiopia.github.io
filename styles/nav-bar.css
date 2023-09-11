@@ -13,34 +13,34 @@ a{
     text-decoration: none;
     color: black;
 }
-.org-logo{
+.navbar .org-logo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
+.navbar .logo{
     height: 71px;
     width: 103px;
     background-image: url(../assets/dev-eth\ logo.png);
     background-size: cover;
     
 }
-.name{
+.navbar .name{
     font-size: 24px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     
 }
-ul{
+.navbar ul{
     display: flex;
     list-style: none;
 }
-li{
+.navbar li{
     padding: 20px;
     list-style: none;
     font-weight:bold;
 }
-.content1{
+.navbar .content1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ li{
     
 
 }
-.ct-button{
+.navbar .ct-button{
     background-color: #B8D8D8;
     padding-top: 12px;
     padding-bottom: 12px;
