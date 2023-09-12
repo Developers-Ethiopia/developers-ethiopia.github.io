@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    
+}
+.footers-logo{
+    background-image: url(../assets/dev-eth\ logo.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 50px;
+}
+.footer-icons{
+    display: flex;
+    gap: 3rem;
+}
+.footer-facebook{
+    border: solid 1px black;
+    border-radius: 50%;
+    padding: 8px;
+}
+.footer-links{
+    display: flex;
+    gap: 2rem;
+    font-size: small;
+    font-weight: bold;
+}
+.footer-line{
+    width: 70%;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    padding-right: 5px;
+}
+.footer-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+}
