@@ -61,3 +61,6 @@ a{
 .nav-hr{
     width: 100%;
 }
+.ct-button{
+    cursor: pointer;
+}

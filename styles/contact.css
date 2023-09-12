@@ -1,0 +1,124 @@
+body{
+    background-color: #EEF5DB;
+}
+.huge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+}
+.huge-card{
+    height: 95%;
+    width: 95%;
+    background-color: white;
+    display: flex;
+}
+.city-pic{
+    height: 100%;
+    width: 40%;
+    background-image: url(../assets/yohannes-minas-YPLosSc3w6A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-header{
+    padding: 30px 15px 8px 24px;
+    color: white;
+    font-size: 30px;
+
+}
+.header2{
+    color: white;
+    padding-left: 24px ;
+}
+.navs{
+    display: flex;
+    justify-content: flex-end;
+    gap: 4.2rem;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.contactus-content{
+   
+    width: 60%;
+    height: 100%;
+}
+.two-txt{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacttxt{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.small-description{
+    padding-top: 50px;
+    max-width: 300px;
+    color: #636161;
+}
+.two-headers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 140px 110px 0px 0px;
+    font-size: 20px;
+}
+.oursocials{
+    padding-right: 70px;
+}
+.send-dm{
+    padding-right: 20px;
+}
+.forsocials-form{
+    padding: 50px 100px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 7.5rem;
+    align-items: center;
+    color: #636161;
+    font-size: 16px;
+}
+.email-phone{
+    padding-top: 40px;
+    line-height: 20px;
+}
+.hr-form{
+    margin-top: 10px;
+    width: 200px;
+}
+.last-div{
+    padding: 70px 64px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14rem;
+}
+.theicons{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 1rem;
+    color:#636161 ;
+    font-size: 20px;
+    margin-right: 90px;
+}
+.right-arrow{
+    border:1px solid #636161  ;
+    border-radius: 50%;
+    padding: 20px;
+
+    width: 50px;
+    height: 50px;
+    background-image: url(../assets/icons8-right-arrow-50.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
