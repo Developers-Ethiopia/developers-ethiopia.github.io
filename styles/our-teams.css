@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@500&display=swap');
+.our-teams {
+  background: #eef5db;
+}
+
+.ot-image img{
+    position: relative;
+}
+.text-1{
+    padding-top: 15%;
+    padding-left: 18%;
+    color:white;
+    position:absolute;
+    font-size:50px;
+} 
+.text-2{
+    padding-top: 15%;
+    padding-left: 70%;
+    color:white;
+    position:absolute;
+    font-size:50px;
+}
+.team-text{
+    padding-top: 80px;
+    font-size: 40px;
+    padding-left: 80px;
+    font-family: Roboto;
+}
+.ics-team img{
+    padding-left: 60px;
+    height: 150px;
+}
+.ics-ot{
+    display: flex;
+}
+.teams{
+    padding-left: 180px;
+    display: flex;
+}
+.team1,.team2,.team3,.team4{
+    display: block;
+    padding: 40px;
+}
+.teamdiv2{
+    padding-left: 300px;
+}
+.teams span{
+    font-weight: bolder;
+    padding-left: 30px;
+}
