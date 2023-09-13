@@ -1,16 +1,17 @@
 .footer{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    width: 100%;
+    background-color: white;
 }
 .footer-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    width: 100%;
     
 }
 .footers-logo{
