@@ -5,9 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developers Ethiopia</title>
-
     <link rel="icon" href="assets/dev-eth_logo-removebg-preview.png">
-
     <link rel="stylesheet" href="styles/nav-bar.css" />
     <link rel="stylesheet" href="styles/body.css" />
     <link rel="stylesheet" href="styles/hero-section.css" />
@@ -15,6 +13,9 @@
     <link rel="stylesheet" href="styles/projects-section.css">
     <link rel="stylesheet" href="styles/CTA.css">
     <link rel="stylesheet" href="styles/footer.css">
+
+    <link rel="stylesheet" href="/styles/our-teams.css">
+
     <link rel="stylesheet" href="styles/our-teams.css">
 
 </head>
@@ -32,7 +33,7 @@
                 <a href="#">
                     <li>Home</li>
                 </a>
-                <a href="#">
+                <a href="./ourTeam.html">
                     <li>Meet the team</li>
                 </a>
                 <a href="#">
@@ -42,7 +43,10 @@
                     <li></li>
                 </a>
             </ul>
-            <a href="./contact.html"><div class="ct-button">Contact Us</div></a>
+
+            <a href="./contact.html">
+                <div class="ct-button">Contact Us</div>
+            </a>
         </div>
     </div>
     <hr class="nav-hr" />
@@ -160,9 +164,11 @@
                 <div class="info">
                     <div class="text">Get to know us better</div>
                     <div class="icons">
-                        <img src="assets/facebook.svg" alt="" class="icon">
-                        <img src="assets/instagram.svg" alt="" class="icon">
-                        <img src="assets/github.svg" alt="" class="icon">
+                        <a href="#"><img src="assets/facebook.svg" alt="" class="icon"></a>
+                        <a href="#"><img src="assets/instagram.svg" alt="" class="icon"></a>
+                        <a href="https://github.com/Developers-Ethiopia/developers-ethiopia.github.io.git">
+                            <img src="assets/github.svg" alt="" class="icon">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -221,7 +227,7 @@
     </section>
 
     <!-- projects-section -->
-    <section class="projects-section">
+    <section class="projects-section" id="projects">
       <div class="containtxt">
 
         <div class="contain-projects">
@@ -304,17 +310,20 @@
       <br>
       
       <div class="footer-links">
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Meet the team</p>
-        <p>Projects</p>
-        <p>Contact Us</p>
+        <p><a href = "./index.html">Home</a></p>
+        <p><a href = "#">About Us</a></p>
+        <p><a href = "./ourTeam.html">Meet the team</a></p>
+        <p><a href = "#">Projects</a></p>
+        <p><a href = "./contact.html">Contact Us</a></p>
       </div>
       <br>
       
       <div class="footer-line"><hr></div>
       
-      <div class="footer-caption"><p class="copyright">&copy;</p> <p>2023 Developers Ethiopia, All rights reserved</p>  </div>
+      <div class="footer-caption">
+        <p class="copyright">&copy;</p> 
+        <p>2023 Developers Ethiopia, All rights reserved</p>  
+    </div>
 
 
 
