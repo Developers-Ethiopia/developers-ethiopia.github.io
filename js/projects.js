@@ -4,7 +4,7 @@ const projectdic = [{
     title: "Mekdela Attendance",
     description: " Mekdala Attendance is a system developed for a school near ICS to make taking attendance of students easier.",
     class: "mekd",
-    background: "assets/photo_2023-09-12_09-23-49.jpg",
+    background: "../assets/photo_2023-09-12_09-23-49.jpg",
     backgroundforthebig: `assets/mekd2.jpg`,
     backgroundattribute: "one" //use this --backgroundatttribute to :hover display background picture
 },
