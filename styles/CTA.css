@@ -1,0 +1,42 @@
+.CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF5DB;
+    height: 50vh;
+    gap: 5rem;
+    
+}
+.cta-pic{
+    width: 400px;
+    height: 800px;
+    padding-bottom: 90px;
+}
+.ctatxt{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.ctatxt1{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+.cta-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 12px;
+    padding: 7px 24px 7px 24px;
+    font-weight: bold;
+
+}
+.cta-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+}
