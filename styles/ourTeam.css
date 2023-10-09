@@ -67,7 +67,7 @@ section.footer {
 }
 
 .grid-container {
-    display: grid !important;
+    display: grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 340px 2px 500px 500px;
     gap: 30px;
@@ -247,9 +247,34 @@ section.footer {
 @media screen and (max-width: 480px) {
     .team-title h1 {
         font-size: 50px;
-        font-weight: bold;
+        font-weight: bolder;
         position: absolute;
         top: 20%;
-        left: 40%;
+        left: 35%;
+    }
+
+    .section-title {
+        padding: 9% 0;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .underline {
+        width: 30%;
+    }
+    
+    #divider {
+        display: none;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .members {
+        margin-top: 30px
     }
 }
