@@ -64,3 +64,24 @@ a{
 .ct-button{
     cursor: pointer;
 }
+
+@media screen and (max-width: 440px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .logo{
+        width: 25%;
+        height: auto;
+        padding: 25px;
+        margin: 15px;
+    }
+
+    .navbar .content1 {
+        display: none;
+    }
+
+    .navbar .name {
+        font-size: 27px;
+    }
+}
