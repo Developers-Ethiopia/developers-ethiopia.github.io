@@ -71,10 +71,10 @@ a{
     }
 
     .navbar .logo{
-        width: 25%;
+        width: 20%;
         height: auto;
         padding: 25px;
-        margin: 15px;
+        margin: 17px;
     }
 
     .navbar .content1 {
@@ -82,6 +82,6 @@ a{
     }
 
     .navbar .name {
-        font-size: 27px;
+        font-size: 25px;
     }
 }
