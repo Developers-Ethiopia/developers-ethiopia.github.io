@@ -273,8 +273,13 @@ section.footer {
     .grid-container {
         display: block;
     }
-
     .members {
-        margin-top: 30px
+        margin-top: 30px;
+        max-width: 90%;
+        padding: 20px;
+        height: auto;
+        overflow: hidden;
+        box-shadow: none;
     }
+   
 }
