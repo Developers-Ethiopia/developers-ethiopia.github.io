@@ -1,7 +1,0 @@
-Add css files here
-
-**
-    Please make all classnames specific for readability and to avoid styling interferences
-**
-
-//suggestion - each section to have separate css files
